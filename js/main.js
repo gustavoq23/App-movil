@@ -6,12 +6,14 @@ function openNav() {
   }
 
 function saveData() {
-  var array = ['nombre', 'apellido', 'numero', 'direccion', 'ocupacion'];
+  var array = ['nombre', 'apellido', 'numero', 'direcion', 'ocupacion'];
   array.forEach(element => {
     var value = document.getElementById(element).value;
     window.localStorage.setItem(element, value);
   });
 }
+
+
 
 function readData() {
   //Read Data from localStorage

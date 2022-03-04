@@ -1,16 +1,30 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:320px;
+    height:440px;
+    overflow:auto;
   }
   
   div{
-      width:320px;
-      height:440px;
-      overflow:auto;
+      margin: 3%;
   }
+
   h2 {
       text-align: center;
   }
+  
+  hr{
+    size: 5px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+  }
 
+  p {
+    width: 100%;
+    height: auto;
+  }
   .imagealign {
     width: 100%;
     height: auto;

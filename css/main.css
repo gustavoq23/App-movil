@@ -114,6 +114,20 @@ body {
     text-align: center;
     line-height: 90vh;
   }
+  .splash.display-none{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    background-color: black;
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+    transition: 0.5s;
+  }
   @keyframes fadeIn{
     to{
       opacity: 1;

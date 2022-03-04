@@ -5,9 +5,15 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-const splash = document.querySelector('.splash');
-document.addEventListener('DOMContentLoaded', (e)=>{
-  setTimeout(()=>{
-    splash.classList.add('display-none');
-  },2000);
-})
+function saveData() {
+  var array = ['nombre', 'apellido', 'numero', 'direccion', 'ocupacion'];
+  array.forEach(element => {
+    var value = document.getElementById(element).value;
+    window.localStorage.setItem(element, value);
+  });
+}
+
+function readData() {
+  //Read Data from localStorage
+
+}

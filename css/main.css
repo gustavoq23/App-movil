@@ -73,6 +73,7 @@ body {
   height: 70px;
   float: left;
   
+  
  }
 
   #content{
@@ -80,6 +81,17 @@ body {
     width: 200px;
     height: auto;
   }
+
+#formular{
+    float: left;
+    width: 100%;
+}
+
+#firstname{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #bebebe;
+}
 
 
   @media screen and (max-height: 450px) {

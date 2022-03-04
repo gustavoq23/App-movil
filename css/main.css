@@ -7,8 +7,13 @@ body {
       height:440px;
       overflow:auto;
   }
-  h2{
+  h2 {
       text-align: center;
+  }
+
+  .imagealign {
+    width: 100%;
+    height: auto;
   }
   
   .sidenav {

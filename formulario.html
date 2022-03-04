@@ -21,12 +21,14 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <h2>Formulario de Adopción</h2>
   <hr>
-  <div id="formular">
-            <input type="test" id="firstname" name="firstname" placeholder="Nombre"><br><br>
-            <input type="test" id="firstname" name="apellido" placeholder="Apellido"><br><br>
-            <input type="test" id="firstname" name="numero" placeholder="Número de identificación"><br><br>
-            <input type="test" id="firstname" name="direcion" placeholder="Direción"><br><br>
-            <input type="test" id="firstname" name="ocupacion" placeholder="Ocupación"><br><br>
+  <form id="formular" onsubmit="saveData()">
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido"><br><br>
+            <input type="text" id="numero" name="numero" placeholder="Número de identificación"><br><br>
+            <input type="text" id="direcion" name="direcion" placeholder="Direción"><br><br>
+            <input type="text" id="ocupacion" name="ocupacion" placeholder="Ocupación"><br><br>
+            <button type="submit" value="Enviar">Enviar</button>  
+  </form>
     </div>
 
 

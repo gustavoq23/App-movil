@@ -87,10 +87,34 @@ body {
     width: 100%;
 }
 
-#firstname{
+#nombre{
   padding-top: 1fr;
   width: 100%;
-  background-color: #bebebe;
+  background-color: #e4e4e4;
+}
+
+#apellido{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#numero{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#direcion{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#ocupacion{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
 }
 
 

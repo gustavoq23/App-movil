@@ -26,21 +26,13 @@
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <h2>Formulario de Adopción</h2>
   <hr>
-  <form id="formular" onsubmit="saveData()">
+  <form id="formular">
             <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
             <input type="text" id="apellido" name="apellido" placeholder="Apellido"><br><br>
             <input type="text" id="numero" name="numero" placeholder="Número de identificación"><br><br>
             <input type="text" id="direcion" name="direcion" placeholder="Direción"><br><br>
             <input type="text" id="ocupacion" name="ocupacion" placeholder="Ocupación"><br><br>
-            <div id="mascotas">
-                <img id="pic" src="img/luna.jpg" alt="dog image">
-                <div id="content">
-                <b>Luna - 2 años<br>
-                Medellin - Bellen<br></b>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error officiis, veniam tempora consectetur ad molestiae at architecto ab asperiores earum.
-                </div>  
-            </div>
-            <button class= "buttonAdop"type="submit" value="Enviar">Enviar</button>  
+            <button type="submit" value="Enviar" onclick="saveData()">Enviar</button>  
   </form>
     </div>
 

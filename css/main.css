@@ -1,7 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width:320px;
-    height:440px;
+    width:360px;
+    height:auto;
     overflow:auto;
   }
   
@@ -35,8 +35,8 @@ body {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: -40px;
+    left: -40px;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -87,10 +87,10 @@ body {
     width: 100%;
 }
 
-#firstname{
+#data{
   padding-top: 1fr;
   width: 100%;
-  background-color: #bebebe;
+  background-color: #e0e0e05b;
 }
 
 

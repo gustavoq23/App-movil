@@ -26,6 +26,28 @@ body {
     height: auto;
     text-align: justify;
   }
+
+  .buttonAdop {
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  .buttonAdop:hover {background-color: #3e8e41}
+  
+  .buttonAdop:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
   .imagealign {
     width: 100%;
     height: auto;
@@ -130,41 +152,4 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
-
-  .splash{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    background-color: black;
-    z-index: 200;
-    color: white;
-    text-align: center;
-    line-height: 90vh;
-  }
-  .splash.display-none{
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    background-color: black;
-    z-index: -10;
-    color: white;
-    text-align: center;
-    line-height: 90vh;
-    transition: 0.5s;
-  }
-  @keyframes fadeIn{
-    to{
-      opacity: 1;
-    }
-  }
-
-  .fade-in{
-    opacity: 0;
-    animation: fadeIn 2s ease-in forwards;
   }

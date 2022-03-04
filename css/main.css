@@ -63,7 +63,25 @@ body {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  .mascotas{
+    width: 100%;
+  }
   
+ #pic{
+  width: 70px;
+  height: 70px;
+  float: left;
+  
+ }
+
+  #content{
+    margin-left: 90px;
+    width: 200px;
+    height: auto;
+  }
+
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

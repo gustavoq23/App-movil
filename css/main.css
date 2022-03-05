@@ -37,17 +37,16 @@ body {
     background-color: #000000;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 5px #999;
+    box-shadow: 0 3px #999;
+    float: right;
   }
-  
-  .buttonAdop:hover {background-color: #3e8e41}
   
   .buttonAdop:active {
-    background-color: #3e8e41;
+    background-color: #4e4e4e;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+    float: right;
   }
-
   .imagealign {
     width: 100%;
     height: auto;
